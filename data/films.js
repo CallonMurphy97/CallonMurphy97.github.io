@@ -17,7 +17,7 @@ const FILMS =
 		'Touch replicated through audiovisual means.<br>Fabric structures exposed and magnified.<br>Textiles dance over microphone and screen.<br>Images burst to the forefront.<br>First a beach, then an unclean pool.<br>Summer slips into fall.<br>Details are forgotten or misremembered.<br>The retained memory of tactile objects.',
 		[['Super Off','July 23, 2026','São Paulo, BR'],['Montreal Underground Film Festival','May 16, 2026','Montreal, QC'],['the8fest','Nov. 29, 2025','Toronto, ON'],['Écran Libre New Media Festival','Nov. 22 2025','Chelsea, QC']],
 		['https://player.vimeo.com/video/1158925433?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479','360','360'],
-		['https://drive.google.com/thumbnail?id=1EMFUKa5ryD4XQozvvX495ZTmRbmLw0SV&sz=w1000','https://drive.google.com/thumbnail?id=146qNQXMPTgo1EyW7ApiBJGAlGgSWFdcI&sz=w1000'],
+		['https://drive.google.com/thumbnail?id=1k9uMA8NTJh5PkhB_oG_M8jMDHVU0G6pv&sz=w1000'],
 		['https://drive.google.com/thumbnail?id=1PRKJmR_qRXkBF4JEuF5snTzqT96oidyy&sz=w1000','https://drive.google.com/thumbnail?id=1jATnTlPLi9hX2g1ZjWzIpBLS1whQHn7C&sz=w1000','https://drive.google.com/thumbnail?id=1WdOQkoOmC8Uz2UOFzQNO-rSSZwyLNBbd&sz=w1000','https://drive.google.com/thumbnail?id=11Tb36rmGKUKzEbomhnEvW5QF8zNsylD5&sz=w1000','https://drive.google.com/thumbnail?id=1B2rxzP7xyTw-LX9tYPlCnzP6_1poU4fn&sz=w1000','https://drive.google.com/thumbnail?id=1bc1j6R3KyK2vCd5ZcIw15Ek77yvCRN5Z&sz=w1000','https://drive.google.com/thumbnail?id=1ZxjbGLm2Hj6sdschGL90cOBacycbZvFm&sz=w1000','https://drive.google.com/thumbnail?id=1KfoMYC7dWZQJ8NLU4ve-0UA-5NS_2lbl&sz=w1000']
 	],
 	['High Visibility', '2025', '78', '4K Digital', 
@@ -31,14 +31,14 @@ const FILMS =
 		"A moment in time becomes blown out, jumbled, and misremembered as it is repeated incessantly.<br>A Honeymoon in Elora was shot on Kodak Tri-X Reversal stock and is an experiment in at-home optical printing.",
 		[['Experimental Superstars','Nov. 16, 2024','Novi Sad, Serbia'],['MISE Festival','July 12, 2024','Nottingham, UK'],['Re-Fest','June 5, 2024','Online'],['Winnipeg Underground Film Festival','May 31, 2024','Winnipeg, MB']],
 		['https://player.vimeo.com/video/891666766?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479','512','432'],
-		['https://drive.google.com/thumbnail?id=1aDzJhnp-JNKBe5Br2gijRPy0P-bQ7PIR&sz=w1000'],
+		null,
 		['https://drive.google.com/thumbnail?id=1JnYQYxjgg1wEttchadx9XlunXMvl_6EY&sz=w1000','https://drive.google.com/thumbnail?id=1wtsXb2Z9JmWlOObhQQpJpYEzrOd3DsHi&sz=w1000','https://drive.google.com/thumbnail?id=1ITnSI-nuTMqvUCRijmjiC8QkWbLA2CfP&sz=w1000','https://drive.google.com/thumbnail?id=1pk-07U1EmBDxayMeAvUFFWMSZey_Zdpy&sz=w1000']
 	],
 	["Twin City Twist","2023","5","S8mm",
 		"A silent dance documenting a brief visit to Minneapolis in the fall of 2022. A reflection on the sleeping city's tumultuous recent history through a recollected interaction and a plea for continued disturbance. Twin City Twist was shot on Kodak Tri-X reversal super 8 film with kaleidoscopic lenses. The film was scanned and edited digitally.",
 		[["FUSE Film Festival", "June 9, 2024", "Karlovac, Croatia"], ["Engauge Experimental Film Festival", "Nov. 4, 2023", "Seattle, WA"], ["OBSKURA Festival", "June 29, 2024", "Rennes, France"]],
 		["https://player.vimeo.com/video/1113391599?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479", "576", "432"],
-		["https://drive.google.com/thumbnail?id=1Kxxym7Ihqoqotd4_72BicEVFSniybsFv&sz=w1000","https://drive.google.com/thumbnail?id=1hMZJzYIVP2fJsv5QKjS3FpIOM7I8RDnO&sz=w1000"],
+		null,
 		["https://drive.google.com/thumbnail?id=16UxIHFMAtNO94lexy9uj8FlRn0PlSZAU&sz=w1000","https://drive.google.com/thumbnail?id=148yqicCVIulRsuTNCFRFkCpELpQs8Hkt&sz=w1000","https://drive.google.com/thumbnail?id=1RysNp3tnm5GmN3LQZyWc8wROZKsINlnp&sz=w1000"]
 	],
 	["Remembrance of a Summer from an Etobicoke Hotel", "2022", "11.25", "4K Digital",
