@@ -7,15 +7,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body style="background-color:white;color:black;">
-<img src="images/banner-about2.png" style='height: 100%; width: 100%; object-fit: contain;'>
-<h1>Callon Murphy</h1>
-<div id='about' style="display:inline;">
-  <div id="wrap">
-    <img class="left" src="images/Portrait1.png" style='height: 12%; width: 12%; object-fit: contain; min-width: 150px;'>
-    <p style='max-width: 1000px'>
-      Callon Murphy is an amateur filmmaker and software developer currently residing in Kitchener, Ontario on unceded land. His work blends personal memories and formal experiments through various DIY digital and analog techniques. Delivered with sparse sound design and typically without narration, Callon's films and videos deal with the falsity of image-making, the futility of technology, and historical subjectivity.<br>To date, all of his films have been independently produced and distributed.
-      <br><br>
+
+<body style="background-color:#ddd;color:#292929;">
+
+  <img src="images/banner-about4.png" style='height: 100%; width: 100%; border: 0px solid white;'>
+  <br>
+  <div id="header" style="background-color:#ddd;color:#292929;">
+    <div class="topnav" id="myTopnav">
+      <a id="aboutA" href="#" onclick="showView('about')" class="active">Home</a>
+      <a id="filmographyA" href="#" onclick="showView('filmography')">Films</a>
+      <a id="performancesA" href="#" onclick="showPerformances()">Performances + More</a>
+      <a href="#" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <br>
+  </div>
+
+<div style="padding-left: 20px;padding-top: 10px;padding-right: 20px;padding-bottom: 20px;">
+<div id='about' style="display: inline;align-content: center;">
+  <div id='filmCards'>
+    <p>
+    </p>
+  </div>
+  <div style='min-height: 370px;text-align: center;align-content: center;width: 100%;margin: 0 auto; max-width: 1000px;'>
+    <br>
+    <p>
+      Callon Murphy is an amateur filmmaker and software developer currently residing in Kitchener, Ontario on unceded land. His work blends personal memories and formal experiments through various DIY digital and analog techniques. Delivered with sparse sound design and typically without narration, Callon's films and videos deal with the falsity of image-making, the futility of technology, and historical subjectivity.<br>To date, all of his films have been produced and distributed independently.
+    </p>
+    <br>
+        <img src="images/Portrait1.png" style='height: 30%; width: 30%; object-fit: contain; min-width: 150px;'>
+    <br>
+    <p>
+    <br>
       His works have screened at festivals around the world including:<br>
       <a href="https://the8fest.com/2025-festival/">the8fest</a>, 
       <a href="https://obskura.fr/jeudi-29-juin-20h30/">Obskura Festival</a>, 
@@ -32,17 +54,20 @@
   </div>
 </div>
 
-<div id='filmography' style="display:none;">
-  <div id="filmList">
-    <h4>
-     | <a href="#" onclick="showFilm('Stream')">Stream (2026)</a>
-     | <a href="#" onclick="showFilm('Heaven (Extended)')">Heaven (Extended) (2025)</a>
-     | <a href="#" onclick="showFilm('Tactile Light Diary')">Tactile Light Diary (2025)</a>
-     | <a href="#" onclick="showFilm('High Visibility')">High Visibility (2025)</a>
-     | <a href="#" onclick="showFilm('A Honeymoon in Elora')">A Honeymoon in Elora (2023)</a>
-     | <a href="#" onclick="showFilm('Twin City Twist')">Twin City Twist (2023)</a> 
-     | <a href="#" onclick="showFilm('Remembrance of a Summer from an Etobicoke Hotel')">Remembrance of a Summer from an Etobicoke Hotel (2022)</a> | 
+
+<div id='filmography' style="display: none;">
+  <div id="mySideNav" class="sidenav">
+    <a href="#" class="closebtn" onclick="closeNav()" >&times;</a>
+    <a href="#" onclick="showFilm('Stream')">Stream (2026)</a>
+    <a href="#" onclick="showFilm('Heaven (Extended)')">Heaven (Extended) (2025)</a>
+    <a href="#" onclick="showFilm('Tactile Light Diary')">Tactile Light Diary (2025)</a>
+    <a href="#" onclick="showFilm('High Visibility')">High Visibility (2025)</a>
+    <a href="#" onclick="showFilm('A Honeymoon in Elora')">A Honeymoon in Elora (2023)</a>
+    <a href="#" onclick="showFilm('Twin City Twist')">Twin City Twist (2023)</a> 
+    <a href="#" onclick="showFilm('Remembrance of a Summer from an Etobicoke Hotel')">Remembrance of a Summer from an Etobicoke Hotel (2022)</a>
   </div>
+
+  <span style="font-size:30px;cursor:pointer;padding-left: 5px;" onclick="openNav()" >&#9776; Films</span>
 
   <div id="filmMain">
     <p>
@@ -51,38 +76,12 @@
   </div>
 </div>
 
-<div id='otherProj' style="display:none;">
-  <table style="width: 100%;font-size: 16px;">
-    <tr class="spacing">
-      <td><b><a href="https://vimeo.com/1139067947">FILMS FOR FREEDOM</a></b></td>
-      <td><i>The Film-Makers’ Cooperative and Canyon Cinema joined forces in 2025 to support Fall of Freedom – an urgent nationwide arts movement united in defiance of the rise of authoritarianism. We sent out a call for 10 second films. Over 100 artists sent us their work."<br>My contribution can be viewed <a href="https://vimeo.com/1139748982">here</a>.</i></td>
-    </tr>
-    <tr class="spacing">
-      <td><b><a href="https://vimeo.com/1199238605">MPS Field Trip 2025</a></b></td>
-      <td><i>A performance of improvised music and live 8mm filmmaking by Owen Kurtz and Callon Murphy for Ministry of Phonic Service's 2025 "Back to School Field Trip", September 7th 2025.</i></td>
-    </tr>
-    <tr class="spacing">
-      <td><b><a href="https://youtu.be/W8R0Zu-Ufb4?si=RoOaKf-UNB49NR1l">Futile, nevertheless</a></b></td>
-      <td><i>A performance of improvised music and video by Owen Kurtz and Callon Murphy at Toronto's Tranzac Club Living Room, June 8th 2024.</i></td>
-    </tr>
-    <tr class="spacing">
-      <td><b><a href="https://lexiforever.site/">LexiForever</a></b></td>
-      <td><i>An infinite memorial for little Lexi.</i></td>
-    </tr>
-    <tr class="spacing">
-      <td><b><a href="https://vimeo.com/user194337730">Vimeo</a></b></td>
-      <td><i>Sketches, snippets, and publicly viewable work.</i></td>
-    </tr>
-    <tr class="spacing">
-      <td><b><a href="https://callonmurphy.bandcamp.com">Bandcamp</a></b></td>
-      <td><i>Featuring music made for moving images and some other stuff.</i></td>
-    </tr>
-  </table>
-  <p><br></p>
+<div id='performances' style="display: none;">
+  <p></p>
 </div>
 
-<h3><b>|</b> <i><a href="#" onclick="showView('about')">Bio</a></i> <b>|</b> <i><a href="#" onclick="showView('filmography')">Filmography</a></i> <b>|</b> <i><a href="#" onclick="showView('otherProj')">Other Stuff</a></i> <b>|</b></h3>
 </body>
 <script src="data/films.js"></script>
+<script src="data/performances.js"></script>
 <script src="js/script.js"></script>
 </html>
