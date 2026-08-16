@@ -36,9 +36,9 @@ tr.spacing>td {
   padding-left: 1px;
   padding-right: 1px;
   padding-bottom: 1px;
-  width: 16vw;
-  min-width: 200px;
-  height: 20vh;
+  width: 12vw;
+  min-width: 150px;
+  height: 18vh;
   float:left; 
 }
 
