@@ -8,9 +8,9 @@ const FILMS =
 	],
 	['Heaven (Extended)', '2025', '37', 'S8mm', 
 		'In the late 18th century, German Mennonites moved north en masse from Pennsylvania and settled along the Grand River on traditional Chonnonton, Anishinaabeg, and Haudenosaunee territories. The reverberations of this colonial migration are still felt by the people living and working on the land today. A people implicated in and perpetuating a centuries long system of suffering, violence, and theft.<br><br>Heaven (Extended) is comprised of ten 1-shot Super 8 rolls and presented with an asynchronous audio track.',
+		[['the8fest', '<i>Sep. 2026 (Upcoming)</i>','Toronto, ON']],
 		null,
-		null,
-		null,
+		['https://drive.google.com/thumbnail?id=1FopmqJqqIsymkOSW_ZLkgrxESMYaD_j3&sz=w1000'],
 		['https://drive.google.com/thumbnail?id=1Uo0VnNLhKvuzj2w4IuZURodBs1dNkkRP&sz=w1000','https://drive.google.com/thumbnail?id=1E5o9f6HryPlKZ94NI2owCyZBdzisDnJl&sz=w1000','https://drive.google.com/thumbnail?id=1UzFnYT2tllsDvnfDW_y-Zk5NOnzzQhyb&sz=w1000','https://drive.google.com/thumbnail?id=12bNGPt_ZnfWWUWDIIxshVopWnhRpnxRk&sz=w1000','https://drive.google.com/thumbnail?id=1lmyXIfFy_cBnyh9Dn0e_a8n5AXOmtDX-&sz=w1000','https://drive.google.com/thumbnail?id=1nVTWvUcGFQJMZb4P_0HqtPp6ag-CPTvw&sz=w1000','https://drive.google.com/thumbnail?id=1Q2A11Bzns6q8XBaDh9SYiLAYqOvGxyEy&sz=w1000','https://drive.google.com/thumbnail?id=16ohq_f8-8cfQmqNFrHHwf__2dl_FxHki&sz=w1000']
 	],
 	['Tactile Light Diary', '2025', '6', '8mm', 
