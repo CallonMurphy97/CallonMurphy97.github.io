@@ -1,21 +1,21 @@
 const FILMS = 
 [	['Stream', '2026', '15', '4K & SD Digital', 
 		'An 1860 inquiry into 100 ancient stone mounds found along the northeastern shores of Lake Ontario is inconclusive. A collection of insecure IP camera feeds from around the globe, sprawling and invasive, may broadcast forever. Human history is collapsed and compressed with the end signalled by a catgirl VTuber. A video of unknowable insides projected alongside auto-translated tweets and soundtracked by buffering twitch streams.<br><br>Who\'ll watch when the roof caves in?',
-		null,
+		[['Edmonton Underground Film Festival', 'Nov. 14, 2026','Edmonton, AB']],
 		null,
 		null,
 		['https://drive.google.com/thumbnail?id=1AvaOonfMhYDf_FvV5ex1vvzl1zdO2u0x&sz=w1000','https://drive.google.com/thumbnail?id=1Fd4dyVrYBMHq0rFiJCQrIsHVPgQn4zlf&sz=w1000','https://drive.google.com/thumbnail?id=1SjRRpoJDYBTOmwhJ7_ydgqH_QjQHDjBO&sz=w1000','https://drive.google.com/thumbnail?id=1vM0-QKHap3Amj8UyWv8OLtLh0itWyEqu&sz=w1000','https://drive.google.com/thumbnail?id=179xZOF-ddu4XJcZ-OFr6gttxsmmeo4v1&sz=w1000','https://drive.google.com/thumbnail?id=1lmAoNG412EfyxPP0tb99jm2nPjIbzzGs&sz=w1000','https://drive.google.com/thumbnail?id=1U4u4pjbXXxCHPt29O8MJI5Ie4obQH93G&sz=w1000','https://drive.google.com/thumbnail?id=1YJpMSNBCFQWLJLaVjK2Qn9Ggu7eX3z_7&sz=w1000']
 	],
 	['Heaven (Extended)', '2025', '37', 'S8mm', 
 		'In the late 18th century, German Mennonites moved north en masse from Pennsylvania and settled along the Grand River on traditional Chonnonton, Anishinaabeg, and Haudenosaunee territories. The reverberations of this colonial migration are still felt by the people living and working on the land today. A people implicated in and perpetuating a centuries long system of suffering, violence, and theft.<br><br>Heaven (Extended) is comprised of ten 1-shot Super 8 rolls and presented with an asynchronous audio track.',
-		[['the8fest', '<i>Sep. 2026 (Upcoming)</i>','Toronto, ON']],
+		[['the8fest', 'Sep. 20, 2026','Toronto, ON']],
 		null,
 		['https://drive.google.com/thumbnail?id=1FopmqJqqIsymkOSW_ZLkgrxESMYaD_j3&sz=w1000'],
 		['https://drive.google.com/thumbnail?id=1Uo0VnNLhKvuzj2w4IuZURodBs1dNkkRP&sz=w1000','https://drive.google.com/thumbnail?id=1E5o9f6HryPlKZ94NI2owCyZBdzisDnJl&sz=w1000','https://drive.google.com/thumbnail?id=1UzFnYT2tllsDvnfDW_y-Zk5NOnzzQhyb&sz=w1000','https://drive.google.com/thumbnail?id=12bNGPt_ZnfWWUWDIIxshVopWnhRpnxRk&sz=w1000','https://drive.google.com/thumbnail?id=1lmyXIfFy_cBnyh9Dn0e_a8n5AXOmtDX-&sz=w1000','https://drive.google.com/thumbnail?id=1nVTWvUcGFQJMZb4P_0HqtPp6ag-CPTvw&sz=w1000','https://drive.google.com/thumbnail?id=1Q2A11Bzns6q8XBaDh9SYiLAYqOvGxyEy&sz=w1000','https://drive.google.com/thumbnail?id=16ohq_f8-8cfQmqNFrHHwf__2dl_FxHki&sz=w1000']
 	],
 	['Tactile Light Diary', '2025', '6', '8mm', 
 		'Touch replicated through audiovisual means.<br>Fabric structures exposed and magnified.<br>Textiles dance over microphone and screen.<br>Images burst to the forefront.<br>First a beach, then an unclean pool.<br>Summer slips into fall.<br>Details are forgotten or misremembered.<br>The retained memory of tactile objects.',
-		[['Engauge Experimental Film Festival','<i>Nov. 2026 (Upcoming)</i>','Seattle, WA'],['Bideodromo Experimental Film and Video Festival','<i>Oct. 2026 (Upcoming)</i>','Bilbao, ES'],['Super Off','July 23, 2026','São Paulo, BR'],['Montreal Underground Film Festival','May 16, 2026','Montreal, QC'],['the8fest','Nov. 29, 2025','Toronto, ON'],['Écran Libre New Media Festival','Nov. 22 2025','Chelsea, QC']],
+		[['Engauge Experimental Film Festival','<i>Nov. 2026 (Upcoming)</i>','Seattle, WA'],['Bideodromo Experimental Film and Video Festival','<i>Oct. 2026 (Upcoming)</i>','Bilbao, ES'],['Fluxus Experimental Film Festival', 'Sep. 18, 2026','Hamilton, ON'],['Super Off','July 23, 2026','São Paulo, BR'],['Montreal Underground Film Festival','May 16, 2026','Montreal, QC'],['the8fest','Nov. 29, 2025','Toronto, ON'],['Écran Libre New Media Festival','Nov. 22 2025','Chelsea, QC']],
 		['https://player.vimeo.com/video/1158925433?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479','360','360'],
 		['https://drive.google.com/thumbnail?id=1k9uMA8NTJh5PkhB_oG_M8jMDHVU0G6pv&sz=w1000'],
 		['https://drive.google.com/thumbnail?id=1PRKJmR_qRXkBF4JEuF5snTzqT96oidyy&sz=w1000','https://drive.google.com/thumbnail?id=1jATnTlPLi9hX2g1ZjWzIpBLS1whQHn7C&sz=w1000','https://drive.google.com/thumbnail?id=1WdOQkoOmC8Uz2UOFzQNO-rSSZwyLNBbd&sz=w1000','https://drive.google.com/thumbnail?id=11Tb36rmGKUKzEbomhnEvW5QF8zNsylD5&sz=w1000','https://drive.google.com/thumbnail?id=1B2rxzP7xyTw-LX9tYPlCnzP6_1poU4fn&sz=w1000','https://drive.google.com/thumbnail?id=1bc1j6R3KyK2vCd5ZcIw15Ek77yvCRN5Z&sz=w1000','https://drive.google.com/thumbnail?id=1ZxjbGLm2Hj6sdschGL90cOBacycbZvFm&sz=w1000','https://drive.google.com/thumbnail?id=1KfoMYC7dWZQJ8NLU4ve-0UA-5NS_2lbl&sz=w1000']
