@@ -1,4 +1,4 @@
-var mainViews = ['about','filmography','performances'];
+var mainViews = ['about','filmography','endotropes','performances'];
 
 class Film {
   constructor(name, date, runtime, format, description, screenings, video, laurels, images)
