@@ -1,7 +1,7 @@
 var mainViews = ['about','filmography','endotropes','performances'];
 
 class Film {
-  constructor(name, date, runtime, format, description, screenings, video, laurels, images)
+  constructor(name, date, runtime, format, description, screenings, screeningNotes, video, laurels, images)
   {
     this.name = name;
     this.date = date;
@@ -9,6 +9,7 @@ class Film {
     this.format = format;
     this.description = description;
     this.screenings = screenings;
+    this.screeningNotes = screeningNotes;
     this.video = video;
     this.laurels = laurels;
     this.images = images;
@@ -186,6 +187,15 @@ function buildFilmCards()
         }
       }
       filmScreenings.appendChild(screeningTable);
+
+      if( film.screeningNotes != null )
+      {
+
+        for( let i = 0; i < film.screeningNotes.length; i++ )
+        {
+          filmScreenings.innerHTML = filmScreenings.innerHTML + `<br><p style="margin : 0; padding-top:0;"><i><small>` + film.screeningNotes[i] + `</small></i></p>`;
+        }
+      }
     }
     filmScreenings.innerHTML = filmScreenings.innerHTML +  `<br></div>`;
     filmContainerDef.appendChild(filmScreenings);
@@ -233,7 +243,7 @@ function buildFilmCards()
 const filmMap = new Map();
 for( let i = 0; i < FILMS.length; i++ )
 {
-  filmMap.set(FILMS[i][0], new Film(FILMS[i][0], FILMS[i][1], FILMS[i][2], FILMS[i][3], FILMS[i][4], FILMS[i][5], FILMS[i][6], FILMS[i][7], FILMS[i][8]) );
+  filmMap.set(FILMS[i][0], new Film(FILMS[i][0], FILMS[i][1], FILMS[i][2], FILMS[i][3], FILMS[i][4], FILMS[i][5], FILMS[i][6], FILMS[i][7], FILMS[i][8], FILMS[i][9]) );
 }
 const perfMap = new Map();
 for( let i = 0; i < PERFORMANCES.length; i++ )
